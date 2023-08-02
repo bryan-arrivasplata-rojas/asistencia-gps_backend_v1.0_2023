@@ -1,0 +1,108 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: rgba(128, 4, 4, 1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+  box-sizing: border-box;
+  z-index: 999; 
+}
+.sidebar::-webkit-scrollbar {
+width: 8px;
+background-color: #f2f2f2;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+background-color: #ccc;
+}
+div.app div.main div ul.sidebar-list{
+padding: 0px;
+}
+
+div.app div.main div ul.sidebar-list li{
+list-style:none;
+margin: 5px;
+padding: 10px 6px 10px 6px;
+cursor: pointer;
+position: relative;
+}
+
+div.app div.main div ul.sidebar-list li:hover{
+background-color: rgb(255, 255, 255);
+margin-right: 0px;
+}
+
+div.app div.main div ul.sidebar-list li a{
+color: white;
+text-decoration: none;
+font-size: large;
+}
+div.app div.main div ul.sidebar-list li.list-menu:hover a.value{
+color: rgba(128, 4, 4, 1);
+font-weight: bold;
+padding: 10px;
+}
+.logout{
+position: absolute !important;
+bottom: 0px;
+right: 0px;
+width: 195px;
+left: 0px;
+}
+.button-sidebar:hover{
+cursor: pointer;
+}
+
+div.app div.main div ul.sidebar-list li.list-menu ul.list-submenu{
+  padding-left: 2px;
+  visibility: hidden;
+  height: 0px;
+  opacity: 0;
+}
+div.app div.main div ul.sidebar-list li.list-menu ul.list-submenu li{
+  padding-left: 15px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+div.app div.main div ul.sidebar-list li.list-menu:hover ul.list-submenu{
+  visibility: visible;
+  opacity: 1;
+  height: 100%;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+
+div.app div.main div ul.sidebar-list li.list-menu:hover ul.list-submenu li a{
+  color:rgba(128, 4, 4, 1);
+}
+
+div.app div.main div ul.sidebar-list li.list-menu:hover ul.list-submenu li:hover{
+  background: rgba(128, 4, 4, 1);
+}
+div.app div.main div ul.sidebar-list li.list-menu:hover ul.list-submenu li:hover a{
+  color: white;
+}
+
+
+
+div.app div.main div ul.sidebar-list li.active{
+  background-color: rgb(255, 255, 255);
+  margin-right: 0px;
+}
+
+div.app div.main div ul.sidebar-list li.active a.value{
+  color: rgba(128, 4, 4, 1);
+  font-weight: bold;
+  padding: 10px;
+}
+div.app div.main div ul.sidebar-list li.active ul.list-submenu li.active-list{
+  background: rgba(128, 4, 4, 1);
+  margin-right: 0px;
+}
+div.app div.main div ul.sidebar-list li.active ul.list-submenu li.active-list a{
+  color: white;
+}

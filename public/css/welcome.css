@@ -1,0 +1,101 @@
+/*body {
+    font-family: 'Nunito', sans-serif;
+}
+#fondo {
+    width: auto;
+    height: 100vh;
+    min-height: max-content;
+    min-width: max-content;
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.2),
+            rgba(255, 255, 255, 0.2)
+        ),
+        url("../img/fondo.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#enlaces{
+    position: absolute;
+}
+.option{
+    background-color: white;
+    color: rgba(128, 4, 4, 1);
+    border-color: rgba(128, 4, 4, 1);
+}
+.option:hover{
+    background-color: rgba(128, 4, 4, 1);
+    color:white;
+    border-color: rgba(128, 4, 4, 1);
+}*/
+div.content{
+    height: 100%;
+    width: 100%;
+}
+div.content div.data{
+    height: 100%;
+    width: 100%;
+}
+div.content div.data div.fondo {
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url("../img/fondo.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+div.content div.data div.fondo div.d-flex{
+    height: 100%;
+    text-align: center;
+}
+div.content div.data div.fondo div.d-flex div.container{
+    
+    display: inline-flex;
+    height:100%
+}
+div.content div.data div.fondo div.d-flex div.container div.language{
+    
+    height: 90vh;
+    
+}
+div.content div.data div.fondo div.d-flex div.container div.language div.card{
+    border: none;
+    height: 100%;
+}
+div.content div.data div.fondo div.d-flex div.container div.language div.card div.card-header{
+    
+    background: #006eff;
+}
+div.content div.data div.fondo div.d-flex div.container div.language div.card div.card-header h5{
+    color: white;
+}
+div.content div.data div.fondo div.d-flex div.container div.language div.card div.card-body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+div.content div.data div.fondo div.d-flex div.container div.language div.card div.card-body iframe{
+    height: 100%;
+        width: 100%;
+}
+div.loader{
+    display: flex;
+    background: white;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    place-content: center;
+}

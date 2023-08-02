@@ -1,0 +1,16 @@
+.paginate_button{
+    padding: 0px !important;
+    margin: 0px !important;
+    border: 0px !important;
+    background: none !important;
+}
+a.page-link{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+ul.pagination{
+    place-content: center;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before {
+    background-color: rgba(128, 4, 4, 1);
+}

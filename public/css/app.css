@@ -1,0 +1,128 @@
+#fondo {
+    width: auto;
+    height: 100vh;
+    min-height: max-content;
+    min-width: max-content;
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.7)
+        ),
+        url("../img/fondo.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo_blanco_login{
+    width: 50%;
+}
+
+.contenedor_base{
+    width: 50vh;
+    height: 80vh;
+    background-color:rgba(128, 4, 4, 1);
+    border-radius:2vw;
+    mix-blend-mode: multiply;
+    position: relative;
+}
+.contenedor{
+    width: 50vh;
+    height: 80vh;
+    border-radius:2vw;
+    position: absolute;
+}
+.inputLogin{
+    margin-right: 5px;
+    background-color:rgba(0,0,0,0) !important;
+    border-top:none !important;
+    border-left:none !important;
+    border-right:none !important;
+    border-radius: 0px !important;
+    color: white !important;
+}
+
+.inputLogin::placeholder{
+    color:white !important;
+}
+.inputLogin.form-control:focus {
+    outline:none !important;
+    outline-width: 1 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+input#password:focus-visible span{
+    color: white !important;
+}
+
+.textLogin{
+    width: 50vh;
+    position:absolute;
+    left: 0px !important;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.buttonLogin{
+    margin-top:2vh;
+    text-align: center;
+    width: 25vh;
+    background-color: white !important;
+    color: black !important;
+    border-radius:10vh !important;
+    border-top:none !important;
+    border-bottom:none !important;
+    border-left:none !important;
+    border-right:none !important;
+}
+.buttonLogin.btn:focus{
+    outline:none !important;
+    outline-width: none !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.input-group-text{
+    background: none;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+}
+.select2{
+    width: 100% !important;
+}
+
+
+
+.content{
+    margin-left: 200px;
+    }
+.data{
+    padding-top: 70px;
+    width: auto;
+}
+.loader{
+    display: flex;
+    background: white;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    z-index: 9999;
+    place-content: center;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+div.app div.main div.content div.data div.row div.card div.card-header a{
+    align-self: center;
+}
+#table-asistencias_wrapper{
+    text-align: -webkit-center;
+    margin-top: 10px;
+}
